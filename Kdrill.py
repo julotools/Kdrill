@@ -6844,7 +6844,7 @@ def flush_caches():
 is_current_CR3_valid()
 
 help_str = "  all : perform all checks\n"
-help_str = "  ci : check if some drivers codes are modified (for file dump use \"offline 1\" command to download them from MS)\n"
+help_str += "  ci : check if some drivers codes are modified (for file dump use \"offline 1\" command to download them from MS)\n"
 help_str += "  fpg : Find if PatchGuard and check if it's running\n"
 help_str += "  cirp : check IRP table of all drivers\n"
 help_str += "  cio : check IRP table of PnP devices\n"
